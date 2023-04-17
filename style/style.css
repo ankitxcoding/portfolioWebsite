@@ -7,13 +7,24 @@ body {
     color: #fff;
     display: block;
     text-align: center;
+}
+
+.header {
+    z-index: 1;
+    text-align: center;
+    color: #fff;
     position: absolute;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 80%;
     top: 50%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
+}
+
+.header {
+    display: block;
 }
 
 @media only screen and (min-width:550px) {
@@ -27,8 +38,21 @@ h1 {
     margin: .67em 0;
     font-size: 2.5rem;
 }
-  
 
+.my-college {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px
+}
+
+@media only screen and (min-width:550px) {
+    .my-college {
+        font-size: 30px
+    }
+}
+  
 #particles-js {
     background: black;
     /* display: flex; */
