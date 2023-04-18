@@ -94,9 +94,28 @@ h1 {
 }
 
 .header-icons .icon:active,
-.header-icons .icon:hover {
-    color: #1488CC;
-    background: #fff
+.header-icons .fa-envelope:hover {
+    color: #DB4437;
+    background: #fff;
+}
+
+.header-icons .icon:active,
+.header-icons .fa-github:hover {
+    color: #000;
+    background: #fff;
+}
+
+.header-icons .icon:active,
+.header-icons .fa-linkedin:hover {
+    color: #fff;
+    background: #0A66C2;
+    border: 2px solid #0A66C2;
+}
+
+.header-icons .icon:active,
+.header-icons .fa-file-pdf-o:hover {
+    color: #E50914;
+    background: #fff;
 }
 
 @media only screen and (min-width:550px) {
