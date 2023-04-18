@@ -44,7 +44,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-.my-college {
+.my-branch {
     font-size: 20px;
     display: block;
     line-height: 1;
@@ -53,38 +53,38 @@ h1 {
 }
 
 @media only screen and (min-width:550px) {
-    .my-college {
+    .my-branch {
         font-size: 30px;
     }
 }
 
 .header-links {
-    margin: 10px
+    margin: 10px;
 }
 
 .header-links .menubutton {
     color: #fff;
     text-decoration: none;
     font-size: 15px;
-    margin: 10px
+    margin: 10px;
 }
 
 @media only screen and (min-width:550px) {
     .header-links .menubutton {
-        font-size: 20px
+        font-size: 20px;
     }
 }
 
 .header-icons {
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
 }
 
 .down,
 .header-icons .icon {
     color: #fff;
-    text-align: center
+    text-align: center;
 }
 
 .header-icons .icon {
@@ -95,7 +95,7 @@ h1 {
     transition: all .7s;
     width: 20px;
     font-size: 20px;
-    margin: 5px
+    margin: 5px;
 }
 
 .header-icons .icon:active,
@@ -127,7 +127,7 @@ h1 {
     .header-icons .icon {
         width: 35px;
         height: 35px;
-        font-size: 35px
+        font-size: 35px;
     }
 }
   
