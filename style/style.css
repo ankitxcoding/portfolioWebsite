@@ -133,7 +133,7 @@ h1 {
   
 #particles-js {
     background: black;
-    /* display: flex; */
+    display: flex;
     vertical-align: bottom;
     width: 100%;
     min-height: 100vh;
