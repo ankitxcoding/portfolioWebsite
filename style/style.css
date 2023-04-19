@@ -174,3 +174,46 @@ h1 {
 
 /* projects css */
 
+.my-projects {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width:550px) {
+    .my-projects {
+        font-size: 50px;
+    }
+}
+
+.my-website-details {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: orange;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width:550px) {
+    .my-website-details {
+        font-size: 30px;
+    }
+}
+
+iframe {
+    border: 1px solid black;
+    width: 50%;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.MoviesAndTVShows {
+    text-decoration: none;
+    color: orange;
+}
+
+.MoviesAndTVShows:hover {
+    color: white;
+}
