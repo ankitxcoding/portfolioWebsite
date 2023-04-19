@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
     background: #000;
 }
 
@@ -198,14 +198,14 @@ h1 {
 
 @media only screen and (min-width:550px) {
     .my-website-details {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
 iframe {
     border: 1px solid black;
-    width: 50%;
-    height: 300px;
+    width: 100%;
+    height: 500px;
     margin-top: 40px;
 }
 
@@ -216,4 +216,27 @@ iframe {
 
 .MoviesAndTVShows:hover {
     color: white;
+}
+
+.busTrackingWebsite {
+    text-decoration: none;
+    color: #1DB954;
+}
+
+.busTrackingWebsite:hover {
+    color: white;
+}
+
+.projectHeader {
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 80%;
+    top: 100%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
