@@ -146,3 +146,31 @@ h1 {
     width: 100% !important;
     height: 100vh !important;
 }
+
+/* aboutMe CSS */
+
+.profile {
+    display: block;
+    border-radius: 50%; border: 2px solid black;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.about-me {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width:550px) {
+    .about-me {
+        font-size: 20px;
+    }
+}
+
+/* projects css */
+
