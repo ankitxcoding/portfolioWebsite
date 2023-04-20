@@ -49,7 +49,7 @@ document.addEventListener(
         interactivity: {
           detect_on: "canvas",
           events: {
-            onhover: { enable: !1, mode: "grab" },
+            onhover: { enable: !1, mode: "repulse" },
             onclick: { enable: !0, mode: "push" },
             resize: !0,
           },
