@@ -7,14 +7,14 @@ html, body {
     background: #000;
 }
 
-.content .my-name {
+.container .my-name {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     display: block;
     text-align: center;
 }
 
-.content {
+.container {
     z-index: 1;
     text-align: center;
     color: #fff;
@@ -28,12 +28,12 @@ html, body {
     transform: translate(-50%, -50%);
 }
 
-.content {
+.container {
     display: block;
 }
 
 @media only screen and (min-width:550px) {
-    .content .my-name {
+    .container .my-name {
         margin: 0;
         font-size: 100px;
     }
@@ -58,11 +58,11 @@ h1 {
     }
 }
 
-.content-links {
+.container-links {
     margin: 10px;
 }
 
-.content-links .menubutton {
+.container-links .menubutton {
     color: #fff;
     text-decoration: none;
     font-size: 15px;
@@ -70,23 +70,23 @@ h1 {
 }
 
 @media only screen and (min-width:550px) {
-    .content-links .menubutton {
+    .container-links .menubutton {
         font-size: 20px;
     }
 }
 
-.content-icons {
+.container-icons {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.content-icons .icon {
+.container-icons .icon {
     color: #fff;
     text-align: center;
 }
 
-.content-icons .icon {
+.container-icons .icon {
     height: 20px;
     padding: 10px;
     border-radius: 50%;
@@ -97,33 +97,33 @@ h1 {
     margin: 5px;
 }
 
-.content-icons .icon:active,
-.content-icons .fa-envelope:hover {
+.container-icons .icon:active,
+.container-icons .fa-envelope:hover {
     color: #DB4437;
     background: #fff;
 }
 
-.content-icons .icon:active,
-.content-icons .fa-github:hover {
+.container-icons .icon:active,
+.container-icons .fa-github:hover {
     color: #000;
     background: #fff;
 }
 
-.content-icons .icon:active,
-.content-icons .fa-linkedin:hover {
+.container-icons .icon:active,
+.container-icons .fa-linkedin:hover {
     color: #fff;
     background: #0A66C2;
     border: 2px solid #0A66C2;
 }
 
-.content-icons .icon:active,
-.content-icons .fa-file-pdf-o:hover {
+.container-icons .icon:active,
+.container-icons .fa-file-pdf-o:hover {
     color: #E50914;
     background: #fff;
 }
 
 @media only screen and (min-width:550px) {
-    .content-icons .icon {
+    .container-icons .icon {
         width: 35px;
         height: 35px;
         font-size: 35px;
@@ -226,7 +226,7 @@ iframe {
     color: white;
 }
 
-.projectContent {
+.projectContainer {
     z-index: 1;
     text-align: center;
     color: #fff;
