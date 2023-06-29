@@ -245,6 +245,15 @@ iframe {
     margin-top: 40px;
 }
 
+.eCommerce {
+    text-decoration: none;
+    color: #e2b714;
+}
+
+.eCommerce:hover {
+    color: white;
+}
+
 .MoviesAndTVShows {
     text-decoration: none;
     color: orange;
@@ -270,7 +279,7 @@ iframe {
     position: absolute;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 80%;
-    top: 100%;
+    top: 140%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
