@@ -263,12 +263,12 @@ iframe {
     color: white;
 }
 
-.busTrackingWebsite {
+.foodz {
     text-decoration: none;
-    color: #1DB954;
+    color: orange;
 }
 
-.busTrackingWebsite:hover {
+.foodz:hover {
     color: white;
 }
 
